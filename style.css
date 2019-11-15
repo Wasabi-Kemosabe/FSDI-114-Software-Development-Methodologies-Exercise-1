@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(158, 158, 158);
+}
+
+.col-5 {
+    background-color: #28a745;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-brand h1 {
+    display: inline-block;
+}
+
+.badge {
+    margin-left: 5px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.media {
+    margin-bottom: 15px;
+}
+
+.media img {
+    width: 64px;
+    height: auto;
+}
+
+.tool-info {
+    text-transform: none;
+}
+
+.tool-checkout {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 280px;
+}
+
+.tool-checkout h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.tool-scroll {
+    position: absolute;
+    overflow-y: scroll;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    line-height: 30px;
+    background-color: #28a745;
+}
+
+.footer-copyright {
+    color: white;
+}
