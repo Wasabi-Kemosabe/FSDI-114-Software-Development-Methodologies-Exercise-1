@@ -7,7 +7,14 @@ body {
     background-color: rgb(158, 158, 158);
 }
 
-.col-5 {
+.col-4 {
+    background-image: url(./map.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+.col-5,
+.col-8 {
     background-color: #28a745;
 }
 
@@ -29,6 +36,7 @@ body {
 
 .media {
     margin-bottom: 15px;
+    width: 300px;
 }
 
 .media img {
@@ -42,6 +50,7 @@ body {
 
 .tool-checkout {
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 2px solid black;
     border-radius: 50px;
     height: 280px;
@@ -52,16 +61,27 @@ body {
     margin-bottom: 10px;
 }
 
-.tool-scroll {
+/* .tool-scroll {
     position: absolute;
     overflow-y: scroll;
+} */
+
+.search-bar,
+.tool-inventory {
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 100px;
+}
+
+.search-bar {
+    margin-bottom: 10px;
 }
 
 footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-    line-height: 30px;
+    line-height: 20px;
     background-color: #28a745;
 }
 
