@@ -55,10 +55,25 @@ body {
     margin-bottom: 10px;
 }
 
-/* .tool-scroll {
-    position: absolute;
+.tool-scroll {
+    max-height: 190px;
     overflow-y: scroll;
-} */
+}
+
+.tool-scroll::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.tool-scroll::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+.tool-scroll::-webkit-scrollbar-track {
+    box-shadow: rgb(0, 0, 0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
 
 .search-bar,
 .tool-inventory {
