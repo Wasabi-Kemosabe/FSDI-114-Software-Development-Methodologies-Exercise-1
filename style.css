@@ -3,8 +3,14 @@
     padding: 0;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: rgb(158, 158, 158);
+    margin-bottom: 60px;
 }
 
 .col-5,
@@ -50,13 +56,12 @@ body {
     height: 280px;
 }
 
-.tool-checkout h5 {
-    margin-top: 15px;
+.tool-checkout h4 {
     margin-bottom: 10px;
 }
 
 .tool-scroll {
-    max-height: 190px;
+    max-height: 200px;
     overflow-y: scroll;
 }
 
@@ -80,10 +85,6 @@ body {
     border: 2px solid black;
     border-radius: 50px;
     height: 100px;
-}
-
-.search-bar,
-.tool-inventory {
     margin-bottom: 10px;
     padding: 0 !important;
 }
@@ -112,9 +113,9 @@ body {
 
 footer {
     position: absolute;
-    width: 100%;
     bottom: 0;
-    line-height: 20px;
+    width: 100%;
+    line-height: 50px;
     background-color: #28a745;
 }
 
