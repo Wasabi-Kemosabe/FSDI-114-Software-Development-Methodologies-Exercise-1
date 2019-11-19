@@ -18,6 +18,40 @@ body {
     background-color: #28a745;
 }
 
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
 .navbar-brand img {
     width: 50px;
 }
@@ -62,7 +96,7 @@ body {
 
 .tool-scroll {
     max-height: 200px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .tool-scroll::-webkit-scrollbar {
@@ -111,6 +145,10 @@ body {
     background-image: url(./set_of_tools.jpg);
 }
 
+.user-info li {
+    list-style-type: none;
+}
+
 footer {
     position: absolute;
     bottom: 0;
@@ -121,4 +159,27 @@ footer {
 
 .footer-copyright {
     color: white;
+}
+
+.tool-pic-modal {
+    width: 45px;
+    height: auto;
+}
+
+.modal-header {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.modal-footer {
+    border-top: 1px solid black;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #28a745;
+}
+
+.modal-body {
+    background-color: rgb(158, 158, 158);
 }
